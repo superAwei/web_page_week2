@@ -1,0 +1,253 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Bruno Ace SC", cursive;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mr-24 {
+  margin-right: 24px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.font-xs {
+  font-size: 20px;
+}
+
+.font-s {
+  font-size: 24px;
+}
+
+.font-m {
+  font-size: 64px;
+}
+
+.font-xl {
+  font-size: 128px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-l {
+  text-align: left;
+}
+
+.text-r {
+  text-align: right;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-primary {
+  color: #00FFA3;
+}
+
+.bg-primary {
+  background-color: #000000;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-linear {
+  background: linear-gradient(to bottom, #050014, #01021E);
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 88px;
+}
+
+.main .person {
+  width: 636px;
+  height: 848px;
+}
+.main .content {
+  width: 636px;
+  margin: auto;
+}
+.main .content .btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+  color: #000000;
+}
+.main .content .btn .arrow {
+  width: 24px;
+  height: 24px;
+}
+
+.intro {
+  padding: 160px 0px;
+  background-image: url("../img/background-img.png");
+}
+.intro .intro_left {
+  width: 526px;
+}
+.intro .intro_left img {
+  width: 32px;
+  height: 98px;
+}
+
+.about {
+  padding: 160px 0px;
+}
+.about .about_skill .item {
+  margin: 12px;
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+}
+.about .content {
+  width: 526px;
+}
+
+.contact {
+  padding: 96px 0px;
+}
+.contact .community .icon {
+  width: 162px;
+  height: 162px;
+  border-radius: 40px;
+}
+
+.projects {
+  padding: 160px 0px;
+}
+.projects .main {
+  margin-bottom: 28px;
+}
+.projects .main .photo {
+  width: 196px;
+  height: 196px;
+}
+.projects .main .main_intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.projects .main .main_intro .btn {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.projects .main .main_intro .btn .arrow {
+  width: 13px;
+  height: 13px;
+}
+
+footer {
+  padding: 40px;
+}/*# sourceMappingURL=all.css.map */

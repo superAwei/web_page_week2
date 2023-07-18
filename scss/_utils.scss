@@ -1,0 +1,95 @@
+
+// flex
+.d-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-end{
+    align-items: flex-end;
+}
+
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mb-32{
+    margin-bottom: 32px;
+}
+
+.mb-36{
+    margin-bottom: 36px;
+}
+// 文字設定 
+.font-xs{
+    font-size: 20px;
+}
+
+.font-s{
+    font-size: 24px;
+}
+
+.font-m{
+    font-size: 64px;
+}
+
+.font-xl{
+    font-size: 128px;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-l{
+    text-align: left;
+}
+
+.text-r{
+    text-align: right;
+}
+
+.text-white{
+    color: #FFFFFF;
+}
+
+.text-primary{
+    color:#00FFA3;
+}
+.bg-primary{
+    background-color: #000000;
+}
+
+.bg-white{
+    background-color: #FFFFFF;
+    ;
+}
+
+.bg-linear{
+    background: linear-gradient(to bottom, #050014
+    , #01021E);
+}

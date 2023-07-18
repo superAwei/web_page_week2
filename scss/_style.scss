@@ -1,0 +1,98 @@
+//header
+.nav{
+    height: 88px;
+}
+//main
+.main{
+    .person{
+        width: 636px;
+        height: 848px;
+    }
+    .content{
+        width: 636px;
+        margin: auto;
+        .btn{
+            padding: 12px 24px;
+            border-radius: 32px;
+            color: #000000;
+            .arrow{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+
+//intro
+.intro{
+    padding: 160px 0px;
+    background-image: url("../img/background-img.png");
+    .intro_left{
+        width: 526px;
+        img{
+            width: 32px;
+            height: 98px;
+        }
+    }
+}
+
+//about
+.about{
+    padding: 160px 0px;
+    .about_skill{
+        .item{
+            margin:12px;
+            width: 306px;
+            padding: 16px;
+            border:1px solid #E3E3E3;
+        }
+    }
+    .content{
+        width: 526px;
+    }
+}
+
+//contact
+.contact{
+    padding: 96px 0px;
+    .community{
+        .icon{
+            width: 162px;
+            height: 162px;
+            border-radius: 40px;
+        }
+    }
+}
+
+
+//projects
+.projects{
+    padding: 160px 0px;
+    .main{
+        margin-bottom: 28px;
+        .photo{
+            width: 196px;
+            height: 196px;
+        }
+
+        .main_intro{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            .btn{
+                padding: 12px 24px;
+                border-radius: 32px;
+                .arrow{
+                    width: 13px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+}
+
+//footer
+footer{
+    padding: 40px;
+}
